@@ -1,7 +1,5 @@
 
  
-
-
  
 def fib (n):
     
@@ -13,4 +11,3 @@ def fib (n):
         b = a+b;
         print ('value of a is' , a , 'value of b is', b)
  
-fib(20)

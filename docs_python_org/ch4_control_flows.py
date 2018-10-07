@@ -12,16 +12,20 @@
 #===============================================================================
 
 
-for i in range (5):
-    print (i)
+def f(a, L=[]):
+    L.append(a)
+    return L
+
+print(f(1))
+print(f(2))
+print(f(3))
+
+def my_function():
     
-range(5, 10)
+     """Do nothing, but document it.
+...
+...     No, really, it doesn't do anything.
+...     """
+     pass
 
-a = ['Mary', 'had', 'a', 'little', 'lamb']
-
-for i in range (len(a )):
-    print (i,a[i])
-    
-list (range(5))
-
-print (list)
+print (my_function.__doc__)
