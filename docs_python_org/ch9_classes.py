@@ -1,12 +1,7 @@
-class Dog:
-    
-    kind ='canine'
-    
-    def __init__(self, name):
-        self.name = name    # instance variable unique to each instance
-    
-d = Dog('Fido')
+class MyClass:
+    """A simple example class"""
+    i = 12345
 
-e = Dog('Buddy')
+    def f(s):
+        print(s)
 
-print(d.kind)
